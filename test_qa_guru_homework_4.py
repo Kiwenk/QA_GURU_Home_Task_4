@@ -56,7 +56,7 @@ def test_random_list():
     """
     # TODO создайте список
     l = []
-    for i in range(10):
+    for _ in range(10):
         ran = random.randint(1,100)
         l.append(ran)
     l.sort()
